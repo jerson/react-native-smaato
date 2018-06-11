@@ -36,7 +36,7 @@ Smaato support for **Android** and **iOS**
     ```
       compile project(':react-native-smaato')
     ```
-4.  Add `SOMAAndroidSDKX.X.X.jar` to your Android libs
+4.  Add `SOMAAndroidSDKX.X.X.jar` to your `android/app/libs/smaato` dir
 
 ## Usage
 
