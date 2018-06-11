@@ -31,6 +31,7 @@ repositories {
 }
 
 dependencies {
+    compile fileTree(dir: "../../../android/app/libs", include: ["*.jar"])
     compile 'com.facebook.react:react-native:+'
 }
   
