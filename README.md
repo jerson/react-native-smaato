@@ -24,7 +24,7 @@ Smaato support for **Android** and **iOS**
 
 1.  Open up `android/app/src/main/java/[...]/MainActivity.java`
 
-- Add `import me.jerson.mobile.ads.airpush.RNSmaatoPackage;` to the imports at the top of the file
+- Add `import me.jerson.mobile.ads.smaato.RNSmaatoPackage;` to the imports at the top of the file
 - Add `new RNSmaatoPackage()` to the list returned by the `getPackages()` method
 
 2.  Append the following lines to `android/settings.gradle`:
