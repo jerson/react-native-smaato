@@ -3,7 +3,6 @@
 #import "RNSmaatoBannerView.h"
 
 
-
 @implementation RNSmaato
 
 RCT_EXPORT_MODULE();

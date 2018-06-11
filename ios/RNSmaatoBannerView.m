@@ -1,5 +1,16 @@
 #import "RNSmaatoBannerView.h"
+
+
+#if __has_include("RCTEventDispatcher.h")
+#import "RCTEventDispatcher.h"
+#else
+#import <React/RCTEventDispatcher.h>
+#endif
+#if __has_include("UIView+React.h")
 #import "UIView+React.h"
+#else
+#import <React/UIView+React.h>
+#endif
 
 @implementation RNSmaatoBannerView {
   SOMAAdView  *_bannerView;
@@ -12,21 +23,6 @@
     _eventDispatcher = eventDispatcher;
   }
   return self;
-}
-
-RCT_NOT_IMPLEMENTED(- (instancetype)initWithFrame:(CGRect)frame)
-RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:coder)
-
-- (void)insertReactSubview:(UIView *)view atIndex:(NSInteger)atIndex
-{
-  RCTLogError(@"AdMob Banner cannot have any subviews");
-  return;
-}
-
-- (void)removeReactSubview:(UIView *)subview
-{
-  RCTLogError(@"AdMob Banner cannot have any subviews");
-  return;
 }
 
 - (SOMAAdDimension)getAdSizeFromString:(NSString *)bannerSize
