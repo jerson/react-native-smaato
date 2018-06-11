@@ -1,5 +1,5 @@
 
-package me.jerson.mobile.ads.airpush;
+package me.jerson.mobile.ads.smaato;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;

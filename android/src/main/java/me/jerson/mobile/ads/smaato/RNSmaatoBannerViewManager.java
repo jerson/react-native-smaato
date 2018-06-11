@@ -1,4 +1,4 @@
-package me.jerson.mobile.ads.airpush;
+package me.jerson.mobile.ads.smaato;
 
 import android.content.res.Resources;
 import android.support.annotation.Nullable;

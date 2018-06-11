@@ -1,5 +1,5 @@
 
-package me.jerson.mobile.ads.airpush;
+package me.jerson.mobile.ads.smaato;
 
 import java.util.Arrays;
 import java.util.Collections;
