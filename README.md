@@ -17,7 +17,7 @@ Smaato support for **Android** and **iOS**
 1.  In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2.  Go to `node_modules` ➜ `react-native-smaato` and add `RNSmaato.xcodeproj`
 3.  In XCode, in the project navigator, select your project. Add `libRNSmaato.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4.  Add `iSoma` framework to your project 
+4.  Go to `Podfile` and add `"SmaatoSDK", "~> 9.0.1"` 
 5.  Run your project (`Cmd+R`)<
 
 #### Android

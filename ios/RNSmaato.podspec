@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
 
   s.dependency "React"
-  #s.dependency "others"
+  s.dependency "SmaatoSDK", "~> 9.0.1"
 
 end
 
