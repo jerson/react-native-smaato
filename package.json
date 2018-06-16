@@ -1,9 +1,13 @@
 
 {
   "name": "react-native-smaato",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerson/react-native-smaato"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
