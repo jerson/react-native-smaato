@@ -41,7 +41,7 @@ public class RNSmaatoBannerViewManager extends SimpleViewManager<ReactViewGroup>
 
     @Override
     public String getName() {
-        return "RNSmaatoBannerView";
+        return "RNSmaato";
     }
 
     @Override

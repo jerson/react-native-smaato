@@ -1,7 +1,7 @@
 import React from "react";
 import { requireNativeComponent } from "react-native";
 
-const RNBannerView = requireNativeComponent("RNSmaatoBannerView", BannerView);
+const RNBannerView = requireNativeComponent("RNSmaato", BannerView);
 
 export class BannerView extends React.Component {
   render() {

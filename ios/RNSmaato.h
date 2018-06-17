@@ -6,7 +6,7 @@
 #import <React/RCTViewManager.h>
 #endif
 
-@interface RNSmaato : NSObject <RCTBridgeModule>
+@interface RNSmaato : RCTViewManager <RCTBridgeModule>
 
 @end
   
